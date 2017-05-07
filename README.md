@@ -5,6 +5,11 @@ Port: 2200
 
 Publicly available URL: http://ec2-54-172-195-119.compute-1.amazonaws.com/
 
+Steps to login to the server as the grader:
+
+ssh grader@54.172.195.119 -p 2200 -i graderKey
+
+
 Software installed and config changes made:
 
 Updating all packages on the server
